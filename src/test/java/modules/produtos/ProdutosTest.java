@@ -23,7 +23,7 @@ public class ProdutosTest {
 
     @Test
     @DisplayName("Não e permitido registrar um produto com o valor igual a zero")
-    public void testNaoEPermitidoRegistrarProdutoComValorIgualAZero() {
+    public void testNaoPermitidoRegistrarProdutoComValorIgualAZero() {
 
         //fazer login
       String mensagemApresentada = new LoginPage(navegador)
